@@ -7,7 +7,7 @@ static int myfunc(int[] a) {
                  if (j - i > x) {
                      x = j - i;
                  }
-                 i = j - 1;
+                 i = j - 1;  // Данная строка не влияет на работу скрипта
                  break;
              }
          }
